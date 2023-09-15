@@ -1,0 +1,24 @@
+
+.col-3{
+    border: 1px solid #0088ff ;
+}
+
+
+.col-3:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 3px 1px #0088ff;
+    -moz-box-shadow: 0 0 3px 1px #0088ff;
+    box-shadow: 0 0 3px 1px #0088ff;
+
+}
+.fade:not(.show) {
+    opacity: 1;
+}
+.img-overlay {
+    position: fixed;
+    top: 30%;
+    left: 35%;
+    z-index: 1000;
+    width: 250px;
+    display: none;
+}

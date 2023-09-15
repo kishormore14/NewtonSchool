@@ -1,0 +1,84 @@
+h1,h4{
+    text-align: center;
+    margin: 30px;
+    
+}
+@media screen  and (min-width:768px) and (max-width:995px){
+
+.Directors { 
+    flex: 0 0 auto;
+    width: 100% !important;
+}
+}
+
+
+@media (min-width: 768px){
+.Directors{
+    padding-left: 8rem !important; 
+}}
+.maincontainer{
+    border: 3px solid rgba(29, 28, 28, 0.764);
+    padding: 2rem;
+}
+.names{
+    font-size: 2rem;
+    margin-left: 32px;
+    font-weight: bold;
+}
+.litext{
+   text-align: justify;
+    font-size: large;
+    font-weight: bold;
+}
+
+.hhh{
+    
+        background: palegreen;
+    border-radius: 25px;
+    margin: 2%;
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+#paragrph{
+    font-size: 1.5rem !important;
+    background-color: bisque;
+    border-radius: 20px;
+    margin-top: 13px;
+    font-weight: bold;
+}
+.litext-main{
+        font-size: x-large;
+        font-weight: 600;
+}
+.maindirector{
+height: 250px;
+    width: 250px;}
+
+ .child{
+        border: 1px solid rebeccapurple;
+        height: 100px;
+    }
+ .schild{
+        border: 1px solid;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 480px)
+{
+    .hhh{
+        text-align: center !important;
+    font-size: xx-large !important;
+    }
+    #paragrph{
+        font-size: 1.5rem !important;
+    }
+    .maindirector {
+    height: 150px;
+    width: 150px;
+}
+.hhh {
+   
+    text-align: center !important;
+}
+}
+
